@@ -1,0 +1,16 @@
+server:
+  port: 8999
+
+spring:
+  application:
+    name: config-server-service
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: "classpath:/config"
+logging:
+  level:
+    org.springframework.cloud.config.server.environment.NativeEnvironmentRepository: DEBUG

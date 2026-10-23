@@ -1,0 +1,5 @@
+spring:
+  application:
+    name=tariffs-service
+  config:
+    import: "configserver:http://localhost:8999/"

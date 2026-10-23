@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: debug
+    
+  application:
+    name: cats-service
+    
+  config:
+    import:
+      - "configserver:http://localhost:8999/database-config"
+      - "configserver:http://localhost:8999/"

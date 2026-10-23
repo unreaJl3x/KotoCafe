@@ -1,0 +1,8 @@
+.mvn/
+.settings/
+.project/
+start.bat
+
+gateway_service/node/
+gateway_service/src/main/resources/templates/kotocafe-front
+gateway_service/src/main/resources/static/kotocafe-front

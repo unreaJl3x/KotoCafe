@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/koto_cafe"
+    username: postgres
+    password: 
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      show-sql: true
